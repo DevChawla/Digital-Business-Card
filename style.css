@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #23252C; 
+}
+.main-screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+.container{
+    
+    color:white;
+    width: 320px;
+    background-color:  #1A1B21;
+    height: auto;
+    display: flex;
+flex-direction: column;
+align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.profile{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.profile-name{
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 21px;
+}
+
+.role{
+    margin-top: 7px;
+    color:  #F3BF99;
+    font-family: 'Inter', sans-serif;
+    font-weight: 10px;
+    font-size: 13px;
+}
+
+.name{
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 10;
+margin-top: 9px;
+color: white;
+}
+
+.link-1{
+    text-decoration: none;
+}
+.social{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 17px;
+margin-top: 15px;
+}
+.btn1{
+    border-radius: 10px;
+    background-color: white;
+    height: 25px;
+    width: 100px;
+font-size:15px;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+.btn2{
+    border-radius: 5px;
+    background-color: white;
+    height: 25px;
+    width: 100px;
+font-size:15px;
+color: white;
+background-color: #5093E2;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+
+
+}
+.about{
+margin-right: auto;
+margin-top: 20px;
+margin-left: 30px;
+}
+.info{
+    font-size: 13px;
+    padding: 0px 30px 30px 30px;
+}
+.social-logo{
+    width: 40px;
+    padding: 10px 30px 10px 30px;
+}
+
+.footer{
+    background-color: #161619;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+
+.mail-logo{
+    width: 15px;
+}
+
+.linkedin-logo{
+    width: 15px;;
+}
